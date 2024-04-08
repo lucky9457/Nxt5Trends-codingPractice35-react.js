@@ -1,0 +1,260 @@
+/* Write your CSS here */
+.mainProductImage {
+  height: 100%;
+  border-radius: 5px;
+}
+.imageContainer {
+  height: 60vh;
+
+  margin-right: 30px;
+}
+.poductdetailsContainer {
+  display: flex;
+  width: 85%;
+
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+@media (width<=998px) {
+  .poductdetailsContainer {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.price {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.rating {
+  color: white;
+  font-size: 13px;
+}
+.starIcon {
+  color: white;
+}
+.ratingCont {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 40px;
+  margin-right: 10px;
+}
+.reviewsPara {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+}
+.ratingandReviewCont {
+  display: flex;
+  align-items: center;
+}
+.description {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 300px;
+  color: #475569;
+}
+.detailCont {
+  width: 40%;
+}
+
+.availabilityCount {
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 300px;
+  color: #475569;
+}
+.availabilityHead {
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 500px;
+  color: black;
+}
+.incAndDecContainer {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  justify-content: space-between;
+}
+.count {
+  font-family: Roboto;
+  font-size: 15px;
+}
+.adddToCart {
+  background-color: #3b82f6;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-top: 10px;
+}
+@media (max-width: 776px) {
+  .poductdetailsContainer {
+    flex-direction: column;
+  }
+  .detailCont {
+    width: 90%;
+    padding: 10px;
+  }
+  .headerrr {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 90%;
+    height: 60%;
+    margin-top: 10px;
+  }
+  .mainProductImage {
+    width: 95%;
+    height: 60%;
+    margin: 0px;
+    margin: 5px;
+  }
+  .poductdetailsContainer {
+    margin: 0px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+.headSimilarProducts {
+  font-size: 20px;
+  margin-left: 13%;
+  margin-top: 70px;
+}
+.similarProdContainer {
+  display: flex;
+
+  list-style: none;
+  padding: 0px;
+  margin-left: 13%;
+}
+.listTag {
+  list-style: none;
+  height: 300px;
+
+  margin: 20px;
+}
+.imageSimilar {
+  height: 60%;
+  border-radius: 10px;
+}
+.titleSimilar {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.brandSimilar {
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 0px;
+  color: #475569;
+  margin-top: 4px;
+}
+.similarRatingAndPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  align-items: center;
+  height: 30px;
+}
+.price {
+  font-family: Roboto;
+  font-size: 20px;
+}
+@media (width<=998px) {
+  .poductdetailsContainer {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+  }
+  .headSimilarProducts {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 776px) {
+  .similarProdContainer {
+    width: 90%;
+    margin-left: 10px;
+
+    flex-wrap: wrap;
+  }
+  .poductdetailsContainer {
+  }
+  .imageContainer {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    width: 90%;
+    margin-left: 10px;
+  }
+  .mainProductImage {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .title {
+    margin-top: 8px;
+  }
+}
+.btnContinueShoping {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.errorImage {
+  height: 40%;
+}
+.failureViewCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+@media (max-width: 776px) {
+  .failureViewCont {
+    width: 100%;
+  }
+  .errorImage {
+    height: 20%;
+  }
+}
+.loadingCont {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.starIconSimilar {
+  height: 20px;
+  color: white;
+}
+.ratingCont {
+  width: 50px;
+}
+.title {
+  margin-top: 10px;
+}
